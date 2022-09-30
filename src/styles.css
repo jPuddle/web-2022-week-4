@@ -1,0 +1,44 @@
+body {
+  background: #eceff1;
+  font-family: sans-serif;
+}
+
+.show-data {
+  background: #cfd8dc;
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 3px 3px #00000033;
+}
+
+.show-data h1 {
+  text-align: center;
+}
+
+.show-data img {
+  display: block;
+}
+
+.show-info {
+  width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+  .show-data {
+    display: flex;
+  }
+  .show-info {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  img {
+    margin: auto;
+  }
+  .show-info p {
+    text-align: center;
+    padding: 10px;
+  }
+}
